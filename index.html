@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- normalise -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -33,7 +34,7 @@
             <div class="search-bar">
                 <i class="fa-solid fa-location-dot"></i>
                 <form method="get" action="">
-                    <input type="text" name="barre" id="barre" placeholder="Marseille, France">
+                    <input type="text" name="barre" id="barre" value="Marseille, France">
                 </form>
                 <button type="button" class="button-search">Rechercher</button>
             </div>
@@ -41,9 +42,9 @@
             <div class="filtres">
                 <p>Filtres</p>
             
-                <a href="#" class="fil">
+                <button class="fil">
                     <i class="fa-solid fa-money-bill-wave"></i>Economique</a>
-                 <a href="#" class="fil">
+                 <button class="fil">
                     <i class="fa-solid fa-person"></i></i>Familial</a>
                 <a href="#" class="fil">
                     <i class="fa-solid fa-heart"></i></i>Romantique</a>
