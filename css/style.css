@@ -58,6 +58,15 @@ a {
 .neutral-star {
     color: var(--main-bg-color)
 }
+/* Main */
+main{
+    margin-bottom: 35px; 
+}
+section{
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+}
 
 /* Header */
 header{
