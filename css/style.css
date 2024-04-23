@@ -140,21 +140,18 @@ input{
     padding-right: 15px;
 }
 
-/* 
-<div class="loupe"><button type="button"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i> </button></div>
-                </div>
 .loupe{
+    display: none;
     padding: 15px;
     border-radius: 15px;
     background-color: var(--main-color);
     justify-content: center;
-    
+
 }
 .fa-magnifying-glass{
     color: white;
     font-size: 16px;
-    
-} */
+}
 
 /* Filtres */
 .filtres{
