@@ -1,7 +1,6 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
-    box-sizing: border-box;
 }
 
 :root {
@@ -60,12 +59,12 @@ a {
 }
 /* Main */
 main{
-    margin-bottom: 35px; 
+  margin-bottom: 35px; 
 }
 section{
-      display: flex;
-      flex-direction: column;
-      gap: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 /* Header */
@@ -96,7 +95,9 @@ nav li:hover {
 }
 
 /* Info group */
-
+.info-group{
+    margin-bottom: 35px;
+}
 .headline{
     display: flex;
     flex-direction: column;
@@ -138,6 +139,23 @@ input{
     padding-left: 15px;
     padding-right: 15px;
 }
+
+/* 
+<div class="loupe"><button type="button"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i> </button></div>
+                </div>
+.loupe{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: var(--main-color);
+    justify-content: center;
+    
+}
+.fa-magnifying-glass{
+    color: white;
+    font-size: 16px;
+    
+} */
+
 /* Filtres */
 .filtres{
     display: flex; 
@@ -179,7 +197,10 @@ input{
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
+    gap: 4px;
 }
 
 .hebergements-and-populaires section {
@@ -279,6 +300,7 @@ input{
     margin-bottom: 5px;
 }
 
+
 /* Activités à Marseille */
 .activites-cards{
     display: flex;
@@ -305,7 +327,6 @@ input{
     font-weight: 700;
     padding-left: 15px;
 }
-
 /* Footer */
 .footer-container{
     background-color: var(--main-bg-color);
@@ -335,7 +356,6 @@ input{
     font-size: 18px;
     font-weight: 700;
 }
-
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
