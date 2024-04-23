@@ -297,6 +297,36 @@ input{
     padding-left: 15px;
 }
 
+/* Footer */
+.footer-container{
+    background-color: var(--main-bg-color);
+    
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+     
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 163px;
+    padding: 20px;
+    
+}
+.footer ul{
+    padding:0;
+}
+.footer li{
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+.footer h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
