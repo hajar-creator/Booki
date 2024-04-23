@@ -129,7 +129,44 @@ input{
     padding-left: 15px;
     padding-right: 15px;
 }
-
+/* Filtres */
+.filtres{
+    display: flex; 
+    gap: 15px;
+    align-items: center;
+    
+}
+.filtres p{
+    font-size: 18px;
+    font-weight: 700;
+}
+.fil{
+    height: 50px;
+    border-radius: 25px;
+    border: solid 2px #D9D9D9;
+    padding:10px 19px 10px 19px ;
+    font-weight: 700;
+    font-size: 17px;
+    background-color: white;
+ }
+ .fil i{
+    margin-right: 10px;
+}
+.fil:hover{
+    background-color:#DEEBFF ;
+}
+/* Infobar */
+.infobar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.fa-info{
+    border: solid 1px var(--filter-bg-color);
+    border-radius: 50%;
+    padding: 7px 10px;
+    font-size: 12px;
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
