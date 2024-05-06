@@ -195,7 +195,7 @@ form{
 }
 .info-icon{
     border: solid 1px #D9D9D9;
-    width: 24px;
+    min-width: 24px;
     height: 24px;
     border-radius: 50%;
     position: relative;
@@ -205,6 +205,7 @@ form{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 12px;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -469,7 +470,9 @@ form{
         display: none; 
     }
     input{
-        width: 256px;
+        width: 231px;
+        padding-left: 25px;
+        text-align: left;
     }
     .loupe{
         display: block;
