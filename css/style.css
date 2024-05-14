@@ -425,7 +425,7 @@ form{
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px){
+@media (min-width: 320px) and (max-width: 767.98px){
     .main-container {
         max-width: 767.98px;
         padding: 0;
