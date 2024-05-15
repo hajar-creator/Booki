@@ -450,9 +450,12 @@ form{
         gap: 10px;
     }
     .menu li{
-        border-bottom: solid 2px transparent;
+        border-bottom: solid 2px #F2F2F2;
         padding-bottom: 14px; 
         
+    }
+    .menu ul{
+        gap: 0px;
     }
     .menu li:hover{
         color: var(--main-color);
